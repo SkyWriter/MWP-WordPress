@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Русский WordPress версия 2.8.1 &rsaquo; ReadMe</title>
+	<link rel="stylesheet" href="wordpress/wp-admin/css/install.css" type="text/css" />
+	<style type="text/css">
+	a { text-decoration: underline;}
+	</style>
+</head>
+<body>
+
+<h1 id="logo" style="text-align: center;"> <img alt="WordPress" src="wordpress/wp-admin/images/wordpress-logo.png" /><br />
+Версия 2.8.1
+</h1>
+
+<p style="text-align: center;">Семантическая персональная платформа для
+публикаций</p>
+
+<h1>Добро пожаловать</h1>
+<div style="margin-top: 10px">
+Слова разработчика и основателя WordPress:
+</div>
+<div style="font-size: 80%; font-style: italic; margin-top: 10px; margin-bottom: 10px">
+Добро пожаловать! WordPress - очень особенный проект для меня. Каждый
+разработчик и участник добавляет что-то уникальное, и вместе мы
+создадим нечто красивое, чем я буду гордиться как часть этого. Тысячи
+часов были направлены на WordPress, и мы прилагаем все усилия, чтобы
+сделать его лучше каждый день. Спасибо за то, что Вы делаете его частью
+Вашего мира (Matt Mullenweg)
+</div>
+<div style="margin-top: 10px; margin-bottom: 20px">
+Спасибо за выбор сборки от команды <a href="http://mywordpress.ru/" target="_blank">MyWordPress.Ru</a>, давайте приступим!
+</div>
+
+<h1>Прочитайте перед установкой</h1>
+
+<div style="margin-top: 10px; margin-bottom: 20px; line-height: 22px">
+<p>Пожалуйста, перед установкой ознакомьтесь с <a href="http://mywordpress.ru/support/viewtopic.php?id=7076" target="_blank">нашими рекомендациями</a>.</p><p>В них в том числе описано, <b>что делать, если Вы получаете ошибку &quot;Cannot Modify Header Information&quot;</b>. Если вам есть что добавить, <a href="http://mywordpress.ru/support/viewtopic.php?id=7076">напишите</a> это на нашем <a href="http://mywordpress.ru/support/" target="_blank">форуме</a> и Ваши замечания увидят все остальные пользователи этой сборки.</p>
+</div>
+
+<h1>Установка: Знаменитая установка за 5 минут</h1>
+
+<ol>
+
+  <li>Распакуйте архив в пустую директорию.</li>
+
+  <li>Откройте <code>wp-config-sample.php</code> <a href="http://mywordpress.ru/support/viewtopic.php?id=2461" target="_blank">текстовым редактором</a>,
+например WordPad или аналогичным и заполните данные для подключения к
+базе данных.</li>
+
+  <li>Сохраните файл как <code>wp-config.php</code></li>
+
+  <li>Загрузите все на сервер.</li>
+
+  <li>Откройте <span class="file"><a href="wordpress/wp-admin/install.php">/wp-admin/install.php</a></span>
+в вашем браузере. Это должно настроить таблицы, необходимые для блога.
+Если будет ошибка, то дважды проверьте ваш <span class="file">файл
+wp-config.php</span> и попробуйте заново. Если ошибка произойдет снова,
+пожалуйста обратитесь на наш <a href="http://mywordpress.ru/support/">форум поддержки</a>.
+  </li>
+
+  <li><strong>Пароль дается вам при установке.</strong></li>
+
+  <li>Далее скрипт установки отправит Вас на&nbsp;<a href="wordpress/wp-login.php">страницу входа</a>.
+Войдите с именем пользователя&nbsp;<code style="font-weight: bold;">admin</code>
+и паролем, сгенерированным для Вас во время установки. Затем Вы можете перейти в раздел 'Профиль' и изменить пароль, созданный при установке.</li>
+
+</ol>
+
+<h1>Обновление</h1>
+
+<p>Прежде, чем Вы что-либо обновляете, будьте уверены, что у Вас имеются архивные копии всех файлов, которые могут быть модифицированы, например <code>index.php</code>.
+Не забывайте также сделать архивную копию базы данных, например, с помощью PhpMyAdmin или плагина для архивации базы данных.</p>
+
+<h2>Обновление с любой предыдущей версии до WordPress&nbsp;2.8.1:</h2>
+
+<ol>
+
+  <li>Удалите Ваши старые файлы WP, сохраните то, что Вы изменили.</li>
+
+  <li>Загрузите новые файлы.</li>
+
+  <li>Введите в Вашем браузере <span class="file"><a href="/wp-admin/upgrade.php">/wp-admin/upgrade.php</a>.</span></li>
+
+  <li>Возможно, Вы ожидали большего? Это все! (в большинстве случаев)</li>
+
+  <li>Если у вас возникли затруднения, прочитайте о <a href="http://mywordpress.ru/faq/">типичных проблемах</a> или обратитесь на наш <a href="http://mywordpress.ru/support/">форум</a></li>
+
+</ol>
+
+<h2>Изменения в шаблонах</h2>
+
+<p>Если у Вас есть свои настроенные шаблоны, возможно, Вам потребуется сделать некоторые идменения в них. 
+Если Вы конвертируете Ваши шаблоны от WordPress 1.2 или ранее,&nbsp;<a href="http://codex.wordpress.org/Upgrade_1.2_to_1.5">мы создали
+специальную инструкцию для Вас (англ)</a>. </p>
+
+<h1>Системные требования</h1>
+
+<ul>
+
+  <li>PHP версии <strong>4.3</strong> или выше. Некоторые плагины требуют обязательно PHP версии <strong>5.0</strong> или выше</li>
+
+  <li>MySQL версии <strong>4.0</strong> или выше. Корректная работа с русскими буквами гарантирована только при использовании версий <strong>4.1</strong> или выше</li>
+
+  <li>... и ссылка на&nbsp;<a href="http://wordpress.org/">http://wordpress.org</a>
+на Вашем сайте.</li>
+
+</ul>
+
+<p>WordPress является официальным продолжением <a href="http://cafelog.com/">b2/caf&eacute;log</a>, который пришел от
+Michel V. Работа была продолжена <a href="http://wordpress.org/about/">WordPress
+разработчиками</a>. Если Вы хотите поддержать WordPress, пожалуйста
+рассмотрите возможность <a href="http://wordpress.org/donate/">пожертвования</a>.</p>
+
+<h1>Переход с другой системы</h1>
+
+<p>WordPress может&nbsp;<a href="http://codex.wordpress.org/Importing_Content">импортировать
+данные из некоторого количества систем</a>. Для начала Вы должны иметь
+установленный и работающий&nbsp;WordPress.</p>
+
+<h1>XML-RPC и Atom интерфейс</h1>
+
+<p>Вы можете писать в Ваш блог WordPress с помощью инструментов <a href="http://windowslivewriter.spaces.live.com/">Windows Live Writer</a>,
+<a href="http://ecto.kung-foo.tv/">Ecto</a>, <a href="http://bloggar.com/">Bloggar</a>, <a href="http://radio.userland.com/">Radio Userland</a> (это означает,
+можно использовать функцию Radio емейл-в-блог), <a href="http://www.newzcrawler.com/">NewzCrawler</a>, и другие
+инструменты, которые поддерживают Blogging API! :) Вы можете прочитать
+больше о <a href="http://codex.wordpress.org/XML-RPC_Support">XML-RPC
+поддержке в Кодексе</a>.</p>
+
+<h1>Постинг через Email</h1>
+
+<p>Вы можете постить в блог через почтовый&nbsp;клиент! Для установки
+перейдите в экран настроек "Написание" и заполните детали подключения
+для вашего секретного аккаунта POP3. Затем Вы должны настроить <code style="font-weight: bold;">wp-mail.php</code>
+выполняться периодически для проверки новых записей. Вы можете сделать
+это с помощью Cron-jobs, или, если Ваш хостинг не поддерживает это, Вы
+можете присмотреться к некоторым сервисам мониторинга сайтов, и
+заставить их проверять Ваш <code style="font-weight: bold;">wp-mail.php</code><span style="font-weight: bold;"> URL</span>.</p>
+
+<p>Постинг очень простой: Любое электронное письмо, отправленное на
+адрес будет автоматически опубликовано, с темой письма в качестве
+заголовка. Лучше держать этот адрес в секрете. Скрипт <i>удаляет</i>
+электронные письма, которые были опубликованы.</p>
+
+<h1>Роли пользователей</h1>
+
+<p>Мы ликвидировали уровни пользователей, т.к. гораздо более гибкие
+функции системы были введены в 2.0. Вы можете&nbsp;<a href="http://codex.wordpress.org/Roles_and_Capabilities">прочитать
+больше о Ролях и Способностях в Кодексе</a>.</p>
+
+<h1>Последние примечания</h1>
+
+<ul>
+
+  <li>Если у Вас есть предложения, идеи, замечания или (вдруг!) Вы
+обнаружили ошибку, добро пожаловать в&nbsp;<a href="http://mywordpress.ru/support/">форумы поддержки</a>.</li>
+
+  <li>WordPress сейчас имеет надежный API плагинов, которые делают
+расширение кода очень простым. Если Вы разработчик, заинтересованный в написании новых плагинов, смотрите&nbsp;<a href="http://codex.wordpress.org/Plugin_API">документацию по плагинам
+в Кодексе</a>. В большинстве случаев Вам не нужно модифицировать код
+ядра системы.</li>
+
+</ul>
+
+<h1>Поделитесь любовью</h1>
+
+<p>WordPress не имеет многомилионной долларовой рекламной кампании или
+знаменитости авторов, у нас есть кое-что получше - Вы. Если Вам
+нравится WordPress,&nbsp; пожалуйста расскажите о нем друзьям, помогите
+установить его тем, кто не может разобраться самостоятельно, или
+напишите статью в средствах массовой информации с обзором нас.</p>
+
+<h1>Копирайт</h1>
+
+<p>WordPress выпущен по&nbsp; <abbr title="GNU Public License">GPL</abbr>
+(смотрите <a href="wordpress/license.txt">license.txt</a>).
+Сборка от <a href="http://mywordpress.ru/">MyWordPress.Ru</a> &copy;
+2007-2009</p>
+
+</body>
+</html>
