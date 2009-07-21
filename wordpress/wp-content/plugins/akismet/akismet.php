@@ -3,13 +3,16 @@
 Plugin Name: Akismet
 Plugin URI: http://akismet.com/
 Description: Akismet checks your comments against the Akismet web service to see if they look like spam or not. You need a <a href="http://wordpress.com/api-keys/">WordPress.com API key</a> to use it. You can review the spam it catches under "Comments." To show off your Akismet stats just put <code>&lt;?php akismet_counter(); ?&gt;</code> in your template. See also: <a href="http://wordpress.org/extend/plugins/stats/">WP Stats plugin</a>.
-Version: 2.2.4
+Version: 2.2.6
 Author: Matt Mullenweg
 Author URI: http://ma.tt/
 */
 
 // If you hardcode a WP.com API key here, all key config screens will be hidden
-$wpcom_api_key = '';
+if ( defined('WPCOM_API_KEY') )
+	$wpcom_api_key = constant('WPCOM_API_KEY');
+else
+	$wpcom_api_key = '';
 
 function akismet_init() {
 	global $wpcom_api_key, $akismet_api_host, $akismet_api_port;
@@ -22,6 +25,7 @@ function akismet_init() {
 	$akismet_api_port = 80;
 	add_action('admin_menu', 'akismet_config_page');
 	add_action('admin_menu', 'akismet_stats_page');
+	akismet_admin_warnings();
 }
 add_action('init', 'akismet_init');
 
@@ -164,7 +168,7 @@ function akismet_conf() {
 		<?php
 		// all connections work
 		} else { ?>
-			<p style="padding: .5em; background-color: #2d2; color: #fff; font-weight:bold;">All Akismet servers are available.</p>
+			<p style="padding: .5em; background-color: #2d2; color: #fff; font-weight:bold;"><?php  _e('All Akismet servers are available.'); ?></p>
 			<p><?php _e('Akismet is working correctly.  All servers are accessible.'); ?></p>
 		<?php
 		}
@@ -183,16 +187,16 @@ function akismet_conf() {
 	if ( !empty($servers) ) {
 ?>
 <table style="width: 100%;">
-<thead><th>Akismet server</th><th>Network Status</th></thead>
+<thead><th><?php _e('Akismet server'); ?></th><th><?php _e('Network Status'); ?></th></thead>
 <tbody>
 <?php
 		asort($servers);
-		foreach ( $servers as $ip => $status ) { 
+		foreach ( $servers as $ip => $status ) {
 			$color = ( $status ? '#2d2' : '#d22');
 	?>
 		<tr>
 		<td><?php echo htmlspecialchars($ip); ?></td>
-		<td style="font-weight:bold; color: #fff; background-color: <?php echo $color; ?>"><?php echo ($status ? __('Clear') : __('Obstructed') ); ?></td>
+		<td style="padding: 0 .5em; font-weight:bold; color: #fff; background-color: <?php echo $color; ?>"><?php echo ($status ? __('No problems') : __('Obstructed') ); ?></td>
 		
 	<?php
 		}
@@ -313,22 +317,25 @@ function akismet_server_connectivity_ok() {
 	return !( empty($servers) || !count($servers) || count( array_filter($servers) ) < count($servers) );
 }
 
-if ( !get_option('wordpress_api_key') && !$wpcom_api_key && !isset($_POST['submit']) ) {
-	function akismet_warning() {
-		echo "
-		<div id='akismet-warning' class='updated fade'><p><strong>".__('Akismet is almost ready.')."</strong> ".sprintf(__('You must <a href="%1$s">enter your WordPress.com API key</a> for it to work.'), "plugins.php?page=akismet-key-config")."</p></div>
-		";
+function akismet_admin_warnings() {
+	global $wpcom_api_key;
+	if ( !get_option('wordpress_api_key') && !$wpcom_api_key && !isset($_POST['submit']) ) {
+		function akismet_warning() {
+			echo "
+			<div id='akismet-warning' class='updated fade'><p><strong>".__('Akismet is almost ready.')."</strong> ".sprintf(__('You must <a href="%1$s">enter your WordPress.com API key</a> for it to work.'), "plugins.php?page=akismet-key-config")."</p></div>
+			";
+		}
+		add_action('admin_notices', 'akismet_warning');
+		return;
+	} elseif ( get_option('akismet_connectivity_time') && empty($_POST) && is_admin() && !akismet_server_connectivity_ok() ) {
+		function akismet_warning() {
+			echo "
+			<div id='akismet-warning' class='updated fade'><p><strong>".__('Akismet has detected a problem.')."</strong> ".sprintf(__('A server or network problem is preventing Akismet from working correctly.  <a href="%1$s">Click here for more information</a> about how to fix the problem.'), "plugins.php?page=akismet-key-config")."</p></div>
+			";
+		}
+		add_action('admin_notices', 'akismet_warning');
+		return;
 	}
-	add_action('admin_notices', 'akismet_warning');
-	return;
-} elseif ( get_option('akismet_connectivity_time') && empty($_POST) && is_admin() && !akismet_server_connectivity_ok() ) {
-	function akismet_warning() {
-		echo "
-		<div id='akismet-warning' class='updated fade'><p><strong>".__('Akismet has detected a problem.')."</strong> ".sprintf(__('A server or network problem is preventing Akismet from working correctly.  <a href="%1$s">Click here for more information</a> about how to fix the problem.'), "plugins.php?page=akismet-key-config")."</p></div>
-		";
-	}
-	add_action('admin_notices', 'akismet_warning');
-	return;
 }
 
 function akismet_get_host($host) {
@@ -403,7 +410,7 @@ function akismet_auto_check_comment( $comment ) {
 	$ignore = array( 'HTTP_COOKIE' );
 
 	foreach ( $_SERVER as $key => $value )
-		if ( !in_array( $key, $ignore ) )
+		if ( !in_array( $key, $ignore ) && is_string($value) )
 			$comment["$key"] = $value;
 
 	$query_string = '';

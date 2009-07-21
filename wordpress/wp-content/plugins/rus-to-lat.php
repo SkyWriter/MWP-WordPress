@@ -7,6 +7,8 @@ Author: Anton Skorobogatov <skorobogatov@gmail.com>
 Contributor: Andrey Serebryakov <saahov@gmail.com>
 Author URI: http://skorobogatov.ru/
 Version: 0.3
+
+Plugin is distrubuted according to the terms of GNU General Public License.
 */ 
   
 $gost = array(
