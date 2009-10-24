@@ -119,17 +119,17 @@ function wp_install_defaults($user_id) {
 								'link_notes' => '');
 
 	$default_links[] = array(	'link_url' => 'http://mywordpress.ru/support/',
-								'link_name' => 'Ôîðóì ïîääåðæêè',
+								'link_name' => 'Ð¤Ð¾Ñ€ÑƒÐ¼ Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶ÐºÐ¸',
 								'link_rss' => '',
 								'link_notes' => '');
 
 	$default_links[] = array(	'link_url' => 'http://mywordpress.ru/plugins/',
-								'link_name' => 'Ïëàãèíû',
+								'link_name' => 'ÐŸÐ»Ð°Ð³Ð¸Ð½Ñ‹',
 								'link_rss' => '',
 								'link_notes' =>'');
 
 	$default_links[] = array(	'link_url' => 'http://planet.mywordpress.ru/',
-								'link_name' => 'Ïëàíåòà WordPress',
+								'link_name' => 'ÐŸÐ»Ð°Ð½ÐµÑ‚Ð° WordPress',
 								'link_rss' => '',
 								'link_notes' =>'');
 

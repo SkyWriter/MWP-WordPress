@@ -15,8 +15,8 @@
 		<?php bloginfo('name'); ?> работает на
 		<a href="http://wordpress.org/">WordPress</a>,
 		<a href="http://mywordpress.ru/">русская версия WordPress от MyWordPress.Ru</a>
-		<br /><a href="<?php bloginfo('rss2_url'); ?>">Entries (RSS)</a>
-		and <a href="<?php bloginfo('comments_rss2_url'); ?>">Comments (RSS)</a>.
+		<br /><a href="<?php bloginfo('rss2_url'); ?>">Записи (RSS)</a>
+		и <a href="<?php bloginfo('comments_rss2_url'); ?>">Комментарии (RSS)</a>.
 		<!-- <?php echo get_num_queries(); ?> queries. <?php timer_stop(1); ?> seconds. -->
 	</p>
 </div>

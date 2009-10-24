@@ -20,7 +20,7 @@ get_header(); ?>
 					<?php the_content('Читать полностью &raquo;'); ?>
 				</div>
 
-				<p class="postmetadata"><?php the_tags('Тэги: ', ', ', '<br />'); ?> Posted in <?php the_category(', ') ?> | <?php edit_post_link('Редактировать', '', ' | '); ?>  <?php comments_popup_link('Нет комментариев &#187;', '1 комментарий &#187;', 'Комментариев: % &#187;'); ?></p>
+				<p class="postmetadata"><?php the_tags('Тэги: ', ', ', '<br />'); ?> Написано в рубрике <?php the_category(', ') ?> | <?php edit_post_link('Редактировать', '', ' | '); ?>  <?php comments_popup_link('Нет комментариев &#187;', '1 комментарий &#187;', 'Комментариев: % &#187;'); ?></p>
 			</div>
 
 		<?php endwhile; ?>

@@ -49,7 +49,7 @@
 		<?php }?>
 		</ul>
 		<ul role="navigation">
-			<?php wp_list_pages('title_li=<h2>Pages</h2>' ); ?>
+			<?php wp_list_pages('title_li=<h2>Страницы</h2>' ); ?>
 
 			<li><h2>Архив</h2>
 				<ul>
@@ -57,7 +57,7 @@
 				</ul>
 			</li>
 
-			<?php wp_list_categories('show_count=1&title_li=<h2>Categories</h2>'); ?>
+			<?php wp_list_categories('show_count=1&title_li=<h2>Категории</h2>'); ?>
 		</ul>
 		<ul>
 			<?php /* If this is the frontpage */ if ( is_home() || is_page() ) { ?>
