@@ -24,26 +24,24 @@
 
 			<?php /* If this is a 404 page */ if (is_404()) { ?>
 			<?php /* If this is a category archive */ } elseif (is_category()) { ?>
-			<p>You are currently browsing the archives for the <?php single_cat_title(''); ?> category.</p>
+			<p>Вы просматриваете архив рубрики <?php single_cat_title(''); ?>.</p>
 
 			<?php /* If this is a yearly archive */ } elseif (is_day()) { ?>
-			<p>You are currently browsing the <a href="<?php bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a> blog archives
-			for the day <?php the_time('l, F jS, Y'); ?>.</p>
+			<p>Вы просматриваете архив блога <a href="<?php bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a> за <?php the_time('l, F jS, Y'); ?>.</p>
 
 			<?php /* If this is a monthly archive */ } elseif (is_month()) { ?>
-			<p>You are currently browsing the <a href="<?php bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a> blog archives
-			for <?php the_time('F, Y'); ?>.</p>
+			<p>Вы просматриваете архив блога <a href="<?php bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a> за <?php the_time('F, Y'); ?>.</p>
 
 			<?php /* If this is a yearly archive */ } elseif (is_year()) { ?>
-			<p>You are currently browsing the <a href="<?php bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a> blog archives
-			for the year <?php the_time('Y'); ?>.</p>
+			<p>Вы просматриваете архив блога <a href="<?php bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a> за
+			<?php the_time('Y'); ?> год.</p>
 
 			<?php /* If this is a monthly archive */ } elseif (is_search()) { ?>
-			<p>You have searched the <a href="<?php echo bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a> blog archives
-			for <strong>'<?php the_search_query(); ?>'</strong>. If you are unable to find anything in these search results, you can try one of these links.</p>
+			<p>Вы искали по блогу <a href="<?php echo bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a> фразу
+			<strong>'<?php the_search_query(); ?>'</strong>. Если Вам не удастся найти необходимую информацию, Вы можете попробовать одну из ссылок.</p>
 
 			<?php /* If this is a monthly archive */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
-			<p>You are currently browsing the <a href="<?php echo bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a> blog archives.</p>
+			<p>Вы просматриваете архив блога <a href="<?php echo bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a>.</p>
 
 			<?php } ?>
 
@@ -53,7 +51,7 @@
 		<ul role="navigation">
 			<?php wp_list_pages('title_li=<h2>Pages</h2>' ); ?>
 
-			<li><h2>Archives</h2>
+			<li><h2>Архив</h2>
 				<ul>
 				<?php wp_get_archives('type=monthly'); ?>
 				</ul>
@@ -65,11 +63,11 @@
 			<?php /* If this is the frontpage */ if ( is_home() || is_page() ) { ?>
 				<?php wp_list_bookmarks(); ?>
 
-				<li><h2>Meta</h2>
+				<li><h2>Мета</h2>
 				<ul>
 					<?php wp_register(); ?>
 					<li><?php wp_loginout(); ?></li>
-					<li><a href="http://validator.w3.org/check/referer" title="This page validates as XHTML 1.0 Transitional">Valid <abbr title="eXtensible HyperText Markup Language">XHTML</abbr></a></li>
+					<li><a href="http://validator.w3.org/check/referer" title="This page validates as XHTML 1.0 Transitional">Корретный <abbr title="eXtensible HyperText Markup Language">XHTML</abbr></a></li>
 					<li><a href="http://gmpg.org/xfn/"><abbr title="XHTML Friends Network">XFN</abbr></a></li>
 					<li><a href="http://mywordpress.ru/" title="<?php _e('Powered by WordPress, state-of-the-art semantic personal publishing platform.', 'kubrick'); ?>">WordPress</a></li>
 					<?php wp_meta(); ?>

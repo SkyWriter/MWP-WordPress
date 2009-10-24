@@ -10,33 +10,33 @@ get_header(); ?>
 
 	<?php if (have_posts()) : ?>
 
-		<h2 class="pagetitle">Search Results</h2>
+		<h2 class="pagetitle">Результаты поиска</h2>
 
 		<div class="navigation">
-			<div class="alignleft"><?php next_posts_link('&laquo; Older Entries') ?></div>
-			<div class="alignright"><?php previous_posts_link('Newer Entries &raquo;') ?></div>
+			<div class="alignleft"><?php next_posts_link('&laquo; Старые записи') ?></div>
+			<div class="alignright"><?php previous_posts_link('Новые записи &raquo;') ?></div>
 		</div>
 
 
 		<?php while (have_posts()) : the_post(); ?>
 
 			<div <?php post_class() ?>>
-				<h3 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
+				<h3 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Ссылка на <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
 				<small><?php the_time('l, F jS, Y') ?></small>
 
-				<p class="postmetadata"><?php the_tags('Tags: ', ', ', '<br />'); ?> Posted in <?php the_category(', ') ?> | <?php edit_post_link('Edit', '', ' | '); ?>  <?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?></p>
+				<p class="postmetadata"><?php the_tags('Тэги: ', ', ', '<br />'); ?> Написано в рубрике <?php the_category(', ') ?> | <?php edit_post_link('Редактировать', '', ' | '); ?>  <?php comments_popup_link('Нет комментариев &#187;', '1 комментарий &#187;', 'Комментариев: % &#187;'); ?></p>
 			</div>
 
 		<?php endwhile; ?>
 
 		<div class="navigation">
-			<div class="alignleft"><?php next_posts_link('&laquo; Older Entries') ?></div>
-			<div class="alignright"><?php previous_posts_link('Newer Entries &raquo;') ?></div>
+			<div class="alignleft"><?php next_posts_link('&laquo; Старые записи') ?></div>
+			<div class="alignright"><?php previous_posts_link('Новые записи &raquo;') ?></div>
 		</div>
 
 	<?php else : ?>
 
-		<h2 class="center">No posts found. Try a different search?</h2>
+		<h2 class="center">Ни одна запись не найдена. Попробуйте другие критерии поиска.</h2>
 		<?php get_search_form(); ?>
 
 	<?php endif; ?>

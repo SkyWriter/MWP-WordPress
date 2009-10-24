@@ -6,7 +6,7 @@
 ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-     <title><?php echo get_option('blogname'); ?> - Comments on <?php the_title(); ?></title>
+     <title><?php echo get_option('blogname'); ?> - Комментарии на <?php the_title(); ?></title>
 
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php echo get_option('blog_charset'); ?>" />
 	<style type="text/css" media="screen">
@@ -25,12 +25,12 @@ add_filter('comment_text', 'popuplinks');
 if ( have_posts() ) :
 while ( have_posts() ) : the_post();
 ?>
-<h2 id="comments">Comments</h2>
+<h2 id="comments">Комментарии</h2>
 
-<p><a href="<?php echo get_post_comments_feed_link($post->ID); ?>"><abbr title="Really Simple Syndication">RSS</abbr> feed for comments on this post.</a></p>
+<p><a href="<?php echo get_post_comments_feed_link($post->ID); ?>"><abbr title="Really Simple Syndication">RSS</abbr> для комментариев к этой записи.</a></p>
 
 <?php if ( pings_open() ) { ?>
-<p>The <abbr title="Universal Resource Locator">URL</abbr> to TrackBack this entry is: <em><?php trackback_url() ?></em></p>
+<p>The <abbr title="Universal Resource Locator">URL</abbr> для трекбэка: <em><?php trackback_url() ?></em></p>
 <?php } ?>
 
 <?php
@@ -48,26 +48,26 @@ if ( post_password_required($post) ) {  // and it doesn't match the cookie
 <?php foreach ($comments as $comment) { ?>
 	<li id="comment-<?php comment_ID() ?>">
 	<?php comment_text() ?>
-	<p><cite><?php comment_type('Comment', 'Trackback', 'Pingback'); ?> by <?php comment_author_link() ?> &#8212; <?php comment_date() ?> @ <a href="#comment-<?php comment_ID() ?>"><?php comment_time() ?></a></cite></p>
+	<p><cite><?php comment_type('Комментарий', 'Трекбэк', 'Пингбэк'); ?> by <?php comment_author_link() ?> &#8212; <?php comment_date() ?> @ <a href="#comment-<?php comment_ID() ?>"><?php comment_time() ?></a></cite></p>
 	</li>
 
 <?php } // end for each comment ?>
 </ol>
 <?php } else { // this is displayed if there are no comments so far ?>
-	<p>No comments yet.</p>
+	<p>Пока нет комментариев.</p>
 <?php } ?>
 
 <?php if ( comments_open() ) { ?>
-<h2>Leave a comment</h2>
-<p>Line and paragraph breaks automatic, e-mail address never displayed, <acronym title="Hypertext Markup Language">HTML</acronym> allowed: <code><?php echo allowed_tags(); ?></code></p>
+<h2>Оставить комментарий</h2>
+<p>Разрывы строк и параграфов вставляются автоматически, e-mail адреса не отображаются, разрешенные тэги <acronym title="Hypertext Markup Language">HTML</acronym>: <code><?php echo allowed_tags(); ?></code></p>
 
 <form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform">
 <?php if ( $user_ID ) : ?>
-	<p>Logged in as <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="Log out of this account">Log out &raquo;</a></p>
+	<p>Вы в системе как <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="Выйти из этой учетной записи">Выйти &raquo;</a></p>
 <?php else : ?>
 	<p>
 	  <input type="text" name="author" id="author" class="textarea" value="<?php echo esc_attr($comment_author); ?>" size="28" tabindex="1" />
-	   <label for="author">Name</label>
+	   <label for="author">Имя</label>
 	</p>
 
 	<p>
@@ -82,7 +82,7 @@ if ( post_password_required($post) ) {  // and it doesn't match the cookie
 <?php endif; ?>
 
 	<p>
-	  <label for="comment">Your Comment</label>
+	  <label for="comment">Ваш комментарий</label>
 	<br />
 	  <textarea name="comment" id="comment" cols="70" rows="4" tabindex="4"></textarea>
 	</p>
@@ -90,27 +90,27 @@ if ( post_password_required($post) ) {  // and it doesn't match the cookie
 	<p>
       <input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />
 	  <input type="hidden" name="redirect_to" value="<?php echo esc_attr($_SERVER["REQUEST_URI"]); ?>" />
-	  <input name="submit" type="submit" tabindex="5" value="Say It!" />
+	  <input name="submit" type="submit" tabindex="5" value="Отправить!" />
 	</p>
 	<?php do_action('comment_form', $post->ID); ?>
 </form>
 <?php } else { // comments are closed ?>
-<p>Sorry, the comment form is closed at this time.</p>
+<p>Извините, комментирование закрыто.</p>
 <?php }
 } // end password check
 ?>
 
-<div><strong><a href="javascript:window.close()">Close this window.</a></strong></div>
+<div><strong><a href="javascript:window.close()">Закрыть окно.</a></strong></div>
 
 <?php // if you delete this the sky will fall on your head
 endwhile; //endwhile have_posts()
 else: //have_posts()
 ?>
-<p>Sorry, no posts matched your criteria.</p>
+<p>Извините, но ни одна запись не подошла под Ваши критерии.</p>
 <?php endif; ?>
 <!-- // this is just the end of the motor - don't touch that line either :) -->
 <?php //} ?>
-<p class="credit"><?php timer_stop(1); ?> <cite>Powered by <a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform"><strong>WordPress</strong></a></cite></p>
+<p class="credit"><?php timer_stop(1); ?> <cite>Основано на <a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform"><strong>WordPress</strong></a>, <a href="http://mywordpress.ru/" title="Локализация движка и шаблонов WordPress от команды MyWordPress.Ru">русский WordPress от MyWordPress.ru</a></cite></p>
 <?php // Seen at http://www.mijnkopthee.nl/log2/archive/2003/05/28/esc(18) ?>
 <script type="text/javascript">
 <!--

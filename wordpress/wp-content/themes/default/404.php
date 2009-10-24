@@ -9,7 +9,7 @@ get_header();
 
 	<div id="content" class="narrowcolumn">
 
-		<h2 class="center">Error 404 - Not Found</h2>
+		<h2 class="center">Ошибка 404 - Страница не найдена</h2>
 
 	</div>
 
