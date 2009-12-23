@@ -20,6 +20,9 @@ get_header(); ?>
 		</div>
 		<?php endwhile; endif; ?>
 	<?php edit_post_link('Редактировать.', '<p>', '</p>'); ?>
+	
+	<?php comments_template(); ?>
+	
 	</div>
 
 <?php get_sidebar(); ?>

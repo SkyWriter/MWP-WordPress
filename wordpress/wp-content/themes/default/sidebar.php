@@ -26,22 +26,22 @@
 			<?php /* If this is a category archive */ } elseif (is_category()) { ?>
 			<p>Вы просматриваете архив рубрики <?php single_cat_title(''); ?>.</p>
 
-			<?php /* If this is a yearly archive */ } elseif (is_day()) { ?>
-			<p>Вы просматриваете архив блога <a href="<?php bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a> за <?php the_time('l, F jS, Y'); ?>.</p>
+			<?php /* If this is a daily archive */ } elseif (is_day()) { ?>
+			<p>Вы просматриваете архив блога <a href="<?php bloginfo('url'); ?>/"><?php bloginfo('name'); ?></a> за <?php the_time('l, F jS, Y'); ?>.</p>
 
 			<?php /* If this is a monthly archive */ } elseif (is_month()) { ?>
-			<p>Вы просматриваете архив блога <a href="<?php bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a> за <?php the_time('F, Y'); ?>.</p>
+			<p>Вы просматриваете архив блога <a href="<?php bloginfo('url'); ?>/"><?php bloginfo('name'); ?></a> за <?php the_time('F, Y'); ?>.</p>
 
 			<?php /* If this is a yearly archive */ } elseif (is_year()) { ?>
-			<p>Вы просматриваете архив блога <a href="<?php bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a> за
+			<p>Вы просматриваете архив блога <a href="<?php bloginfo('url'); ?>/"><?php bloginfo('name'); ?></a> за
 			<?php the_time('Y'); ?> год.</p>
 
-			<?php /* If this is a monthly archive */ } elseif (is_search()) { ?>
-			<p>Вы искали по блогу <a href="<?php echo bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a> фразу
+			<?php /* If this is a search result */ } elseif (is_search()) { ?>
+			<p>Вы искали по блогу <a href="<?php bloginfo('url'); ?>/"><?php bloginfo('name'); ?></a> фразу
 			<strong>'<?php the_search_query(); ?>'</strong>. Если Вам не удастся найти необходимую информацию, Вы можете попробовать одну из ссылок.</p>
 
-			<?php /* If this is a monthly archive */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
-			<p>Вы просматриваете архив блога <a href="<?php echo bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a>.</p>
+			<?php /* If this set is paginated */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
+			<p>Вы просматриваете архив блога <a href="<?php bloginfo('url'); ?>/"><?php bloginfo('name'); ?></a>.</p>
 
 			<?php } ?>
 
