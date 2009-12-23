@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Wordpress 2.8.5 Russian MyWordPress.Ru Edition\n"
+"Project-Id-Version: Wordpress 2.9 Russian MyWordPress.Ru Edition\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-12-23 21:07+0300\n"
-"PO-Revision-Date: 2009-12-23 23:48+0300\n"
+"PO-Revision-Date: 2009-12-24 00:09+0300\n"
 "Last-Translator: Ivan Kasatenko <sky.31338@gmail.com>\n"
 "Language-Team: MyWordPress.Ru <mywordpress@mywordpress.ru>\n"
 "MIME-Version: 1.0\n"
@@ -9230,7 +9230,7 @@ msgstr "Оригинальный размер %s"
 
 #: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:85
 msgid "Scale"
-msgstr "Масштаб"
+msgstr "Масштабировать"
 
 #: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:93
 msgid "Restore Original Image"
@@ -9327,7 +9327,7 @@ msgstr "Применить изменения к:"
 
 #: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:173
 msgid "All image sizes"
-msgstr "Изображения всех размеров"
+msgstr "Изображениям всех размеров"
 
 #: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:177
 #: C:\Temp\wp\wordpress/wp-admin/includes/media.php:822
