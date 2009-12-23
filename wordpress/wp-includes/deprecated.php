@@ -1747,7 +1747,7 @@ function the_content_rss($more_link_text='(more...)', $stripteaser=0, $more_file
 		}
 
 		/** @todo Check performance, might be faster to use array slice instead. */
-		for ( $i=0; $i<$k; $i+)
+		for ( $i=0; $i<$k; $i++ )
 			$excerpt .= $blah[$i].' ';
 		$excerpt .= ($use_dotdotdot) ? '...' : '';
 		$content = $excerpt;
@@ -1772,7 +1772,7 @@ function make_url_footnote( $content ) {
 	_deprecated_function(__FUNCTION__, '2.9', '' );
 	preg_match_all( '/<a(.+?)href=\"(.+?)\"(.*?)>(.+?)<\/a>/', $content, $matches );
 	$links_summary = "\n";
-	for ( $i=0; $i<count($matches[0]); $i+) {
+	for ( $i=0; $i<count($matches[0]); $i++ ) {
 		$link_match = $matches[0][$i];
 		$link_number = '['.($i+1).']';
 		$link_url = $matches[2][$i];
@@ -1810,4 +1810,4 @@ function _c( $text, $domain = 'default' ) {
 	_deprecated_function(__FUNCTION__, '2.9', '_x' );
 	return translate_with_context( $text, $domain );
 }
-  ?>
+?>
