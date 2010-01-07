@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Wordpress 2.9 Russian MyWordPress.Ru Edition\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-12-23 21:07+0300\n"
-"PO-Revision-Date: 2009-12-24 00:09+0300\n"
+"POT-Creation-Date: 2010-01-07 22:13+0300\n"
+"PO-Revision-Date: 2010-01-07 22:16+0300\n"
 "Last-Translator: Ivan Kasatenko <sky.31338@gmail.com>\n"
 "Language-Team: MyWordPress.Ru <mywordpress@mywordpress.ru>\n"
 "MIME-Version: 1.0\n"
@@ -821,8 +821,8 @@ msgid "Draft"
 msgstr "черновик"
 
 #: C:\Temp\wp\wordpress/wp-admin/admin-ajax.php:1255
-#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:159
-#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:173
+#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:161
+#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:175
 msgid "Y/m/d"
 msgstr "d.m.Y"
 
@@ -1181,13 +1181,13 @@ msgstr "Перейдите к вашему сайту чтобы увидеть 
 
 #: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:74
 #: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:87
-#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:204
+#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:206
 #, php-format
 msgid "Edit &#8220;%s&#8221;"
 msgstr "Редактировать &#8220;%s&#8221;"
 
 #: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:93
-#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:204
+#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:206
 msgid "Edit"
 msgstr "Редактировать"
 
@@ -1199,74 +1199,74 @@ msgstr "Восстановить"
 msgid "Trash"
 msgstr "Корзина"
 
-#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:100
+#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:101
 msgid "Delete Permanently"
 msgstr "Удалить"
 
-#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:103
+#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:105
 #, php-format
 msgid "View &#8220;%s&#8221;"
 msgstr "Просмотреть &#8220;%s&#8221;"
 
-#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:103
+#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:105
 msgid "View"
 msgstr "Просмотреть"
 
-#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:134
+#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:136
 msgid "No Tags"
 msgstr "Метки отсутствуют"
 
-#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:148
+#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:150
 msgid "Unpublished"
 msgstr "не опубликована"
 
-#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:150
+#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:152
 msgid "Y/m/d g:i:s A"
 msgstr "d.m.Y H:i:s"
 
-#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:155
+#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:157
 #, php-format
 msgid "%s from now"
 msgstr "%s до публикации"
 
-#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:157
+#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:159
 #, php-format
 msgid "%s ago"
 msgstr "%s назад"
 
-#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:177
+#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:179
 msgid "(Unattached)"
 msgstr "(Не прикреплено к записям)"
 
-#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:178
+#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:180
 msgid "Attach"
 msgstr "Прикрепить"
 
-#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:190
+#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:192
 #, php-format
 msgid "%s pending"
 msgstr "%s в ожидании"
 
-#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:193
+#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:195
 msgctxt "comment count"
 msgid "0"
 msgstr "0"
 
-#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:193
+#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:195
 msgctxt "comment count"
 msgid "1"
 msgstr "1"
 
-#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:193
+#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:195
 msgctxt "comment count"
 msgid "%"
 msgstr "%"
 
-#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:205
+#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:207
 msgid "Get permalink"
 msgstr "Получить постоянную ссылку"
 
-#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:224
+#: C:\Temp\wp\wordpress/wp-admin/edit-attachment-rows.php:226
 msgid "No media attachments found."
 msgstr "Не найдены мультимедиа вложения."
 
@@ -2314,40 +2314,59 @@ msgstr "Уже установлен"
 msgid "You appear to have already installed WordPress. To reinstall please clear your old database tables first."
 msgstr "Вы уже установили WordPress. Для переустановки, пожалуйста, сначала очистите старые таблицы в базе данных."
 
-#: C:\Temp\wp\wordpress/wp-admin/install.php:90
+#: C:\Temp\wp\wordpress/wp-admin/install.php:91
+#, php-format
+msgid "You cannot install because WordPress %1$s requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
+msgstr "Установка невозможна, т.к. WordPress %1$s требует PHP версии %2$s или выше и MySQL версии %3$s или выше. У Вас установлен PHP версии %4$s и MySQL версии %5$s."
+
+#: C:\Temp\wp\wordpress/wp-admin/install.php:93
+#, php-format
+msgid "You cannot install because WordPress %1$s requires PHP version %2$s or higher. You are running version %3$s."
+msgstr "Установка невозможна, т.к. WordPress %1$s требует PHP версии %2$s или выше. У Вас установлен PHP версии %3$s."
+
+#: C:\Temp\wp\wordpress/wp-admin/install.php:95
+#, php-format
+msgid "You cannot install because WordPress %1$s requires MySQL version %2$s or higher. You are running version %3$s."
+msgstr "Установка невозможна, т.к. WordPress %1$s требует MySQL версии %2$s или выше. У Вас установлен MySQL версии %3$s."
+
+#: C:\Temp\wp\wordpress/wp-admin/install.php:99
+msgid "Insufficient Requirements"
+msgstr "Не соблюдены минимальные требования"
+
+#: C:\Temp\wp\wordpress/wp-admin/install.php:107
 msgid "Welcome"
 msgstr "Добро пожаловать"
 
-#: C:\Temp\wp\wordpress/wp-admin/install.php:91
+#: C:\Temp\wp\wordpress/wp-admin/install.php:108
 #, php-format
 msgid "Welcome to the famous five minute WordPress installation process! You may want to browse the <a href=\"%s\">ReadMe documentation</a> at your leisure.  Otherwise, just fill in the information below and you&#8217;ll be on your way to using the most extendable and powerful personal publishing platform in the world."
 msgstr "Вы приступаете к установке WordPress. Установка происходит в два этапа и не займет много времени. Если хотите, вы можете просмотреть <strong><a href=\"%s\">документацию в Readme</a></strong>. Или просто заполните приведенную ниже информацию и вы будете на пути к использованию наиболее мощной и расширяемой личной издательской платформы в мире. Для вашей безопасности: если вы устанавливали блог с помощью этого встроенного инсталлятора и не правили перед этим файл конфигурации вручную, то после окончания установки не забудьте пройти по ссылке <strong><a href=\"http://api.wordpress.org/secret-key/1.1/\" target=\"_blank\">генерация ключей</a></strong> (откроется в новом окне) и скопировать эти случайно сгенерированные строки в ваш файл конфигурации «wp-config.php», заменив ими те, что идут по умолчанию. Чтобы не было проблем, пользуйтесь только проверенными редакторами (смотрите файл readme.html в дистрибутиве). Если вы столкнулись с трудностями, то не торопитесь сразу бежать на форумы поддержки, а проверьте, что вы все выполнили строго, как описано в readme.html и почитайте <a href=\"http://mywordpress.ru/faq/\" target=\"_blank\">FAQ</a>."
 
-#: C:\Temp\wp\wordpress/wp-admin/install.php:92
+#: C:\Temp\wp\wordpress/wp-admin/install.php:109
 msgid "First Step"
 msgstr "Первый шаг"
 
-#: C:\Temp\wp\wordpress/wp-admin/install.php:94
+#: C:\Temp\wp\wordpress/wp-admin/install.php:111
 msgid "Information needed"
 msgstr "Требуется ввести информацию"
 
-#: C:\Temp\wp\wordpress/wp-admin/install.php:95
+#: C:\Temp\wp\wordpress/wp-admin/install.php:112
 msgid "Please provide the following information.  Don&#8217;t worry, you can always change these settings later."
 msgstr "Пожалуйста, предоставьте следующую информацию. Не переживайте, позже Вы всегда сможете изменить эти параметры."
 
-#: C:\Temp\wp\wordpress/wp-admin/install.php:115
+#: C:\Temp\wp\wordpress/wp-admin/install.php:132
 msgid "you must provide an e-mail address."
 msgstr "Вы должны ввести адрес email"
 
-#: C:\Temp\wp\wordpress/wp-admin/install.php:119
+#: C:\Temp\wp\wordpress/wp-admin/install.php:136
 msgid "that isn&#8217;t a valid e-mail address.  E-mail addresses look like: <code>username@example.com</code>"
 msgstr "неверный email адрес.  Адрес должен быть вида: <code>username@example.com</code>"
 
-#: C:\Temp\wp\wordpress/wp-admin/install.php:129
+#: C:\Temp\wp\wordpress/wp-admin/install.php:146
 msgid "Success!"
 msgstr "Готово!"
 
-#: C:\Temp\wp\wordpress/wp-admin/install.php:131
+#: C:\Temp\wp\wordpress/wp-admin/install.php:148
 msgid "WordPress has been installed. Were you expecting more steps? Sorry to disappoint."
 msgstr "WordPress установлен. Ожидали больше шагов? Это все!"
 
@@ -2868,7 +2887,7 @@ msgid "New User Default Role"
 msgstr "Роль нового пользователя"
 
 #: C:\Temp\wp\wordpress/wp-admin/options-general.php:104
-#: C:\Temp\wp\wordpress/wp-admin/options-general.php:148
+#: C:\Temp\wp\wordpress/wp-admin/options-general.php:160
 msgid "Timezone"
 msgstr "Часовой пояс"
 
@@ -2882,7 +2901,7 @@ msgid "hours"
 msgstr "час (а,ов)"
 
 #: C:\Temp\wp\wordpress/wp-admin/options-general.php:131
-#: C:\Temp\wp\wordpress/wp-admin/options-general.php:155
+#: C:\Temp\wp\wordpress/wp-admin/options-general.php:167
 #, php-format
 msgid "<abbr title=\"Coordinated Universal Time\">UTC</abbr> time is <code>%s</code>"
 msgstr "<abbr title=\"Coordinated Universal Time\">UTC</abbr> время соответствует <code>%s</code>"
@@ -2896,55 +2915,55 @@ msgstr "UTC %1$s время соответствует <code>%2$s</code>"
 msgid "Unfortunately, you have to manually update this for Daylight Savings Time. Lame, we know, but will be fixed in the future."
 msgstr "К сожалению, вам придется вручную обновлять часовой пояс при переходе на «Летнее» и «Зимнее» время. Возможно это будет исправлено в будущем."
 
-#: C:\Temp\wp\wordpress/wp-admin/options-general.php:157
+#: C:\Temp\wp\wordpress/wp-admin/options-general.php:169
 #, php-format
 msgid "Local time is <code>%1$s</code>"
 msgstr "Локальное время <code>%1$s</code>"
 
-#: C:\Temp\wp\wordpress/wp-admin/options-general.php:160
+#: C:\Temp\wp\wordpress/wp-admin/options-general.php:172
 msgid "Choose a city in the same timezone as you."
 msgstr "Выберите город в той же временной зоне, что и Вы."
 
-#: C:\Temp\wp\wordpress/wp-admin/options-general.php:166
+#: C:\Temp\wp\wordpress/wp-admin/options-general.php:178
 msgid "This timezone is currently in daylight savings time."
 msgstr "Активен режим летнего времени."
 
-#: C:\Temp\wp\wordpress/wp-admin/options-general.php:167
+#: C:\Temp\wp\wordpress/wp-admin/options-general.php:179
 msgid "This timezone is currently in standard time."
 msgstr "Активен режим зимнего времени."
 
-#: C:\Temp\wp\wordpress/wp-admin/options-general.php:183
+#: C:\Temp\wp\wordpress/wp-admin/options-general.php:195
 #, php-format
 msgid "Daylight savings time begins on: <code>%s</code>."
 msgstr "Летнее время наступает: <code>%s</code>."
 
-#: C:\Temp\wp\wordpress/wp-admin/options-general.php:184
+#: C:\Temp\wp\wordpress/wp-admin/options-general.php:196
 #, php-format
 msgid "Standard time begins  on: <code>%s</code>."
 msgstr "Зимнее время начинается: <code>%s</code>."
 
-#: C:\Temp\wp\wordpress/wp-admin/options-general.php:187
+#: C:\Temp\wp\wordpress/wp-admin/options-general.php:199
 msgid "This timezone does not observe daylight savings time."
 msgstr "В данном временном поясе не предусмотрено летнее время."
 
-#: C:\Temp\wp\wordpress/wp-admin/options-general.php:204
+#: C:\Temp\wp\wordpress/wp-admin/options-general.php:216
 msgid "F j, Y"
 msgstr "j F Y"
 
-#: C:\Temp\wp\wordpress/wp-admin/options-general.php:223
-#: C:\Temp\wp\wordpress/wp-admin/options-general.php:255
+#: C:\Temp\wp\wordpress/wp-admin/options-general.php:235
+#: C:\Temp\wp\wordpress/wp-admin/options-general.php:267
 msgid "Custom:"
 msgstr "Свой формат:"
 
-#: C:\Temp\wp\wordpress/wp-admin/options-general.php:225
+#: C:\Temp\wp\wordpress/wp-admin/options-general.php:237
 msgid "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Documentation on date formatting</a>. Click &#8220;Save Changes&#8221; to update sample output."
 msgstr "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Документация по форматированию даты</a>. Нажмите «Сохранить изменения», чтобы обновить пример."
 
-#: C:\Temp\wp\wordpress/wp-admin/options-general.php:237
+#: C:\Temp\wp\wordpress/wp-admin/options-general.php:249
 msgid "g:i a"
 msgstr "G:i"
 
-#: C:\Temp\wp\wordpress/wp-admin/options-general.php:261
+#: C:\Temp\wp\wordpress/wp-admin/options-general.php:273
 msgid "Week Starts On"
 msgstr "Первый день недели"
 
@@ -3336,7 +3355,7 @@ msgstr "WordPress не оповещает какие либо «<a href=\"http:/
 msgid "Error! Options page not found."
 msgstr "Ошибка! Страница настроек не найдена."
 
-#: C:\Temp\wp\wordpress/wp-admin/options.php:91
+#: C:\Temp\wp\wordpress/wp-admin/options.php:97
 msgid "All Settings"
 msgstr "Все настройки"
 
@@ -3913,20 +3932,20 @@ msgstr "Запрошенная тема не найдена."
 msgid "Select theme to edit:"
 msgstr "Выберите «тему» для редактирования:"
 
-#: C:\Temp\wp\wordpress/wp-admin/theme-editor.php:145
+#: C:\Temp\wp\wordpress/wp-admin/theme-editor.php:144
 msgid "Theme Files"
 msgstr "Файлы «темы»"
 
-#: C:\Temp\wp\wordpress/wp-admin/theme-editor.php:150
+#: C:\Temp\wp\wordpress/wp-admin/theme-editor.php:149
 msgid "Templates"
 msgstr "Шаблоны"
 
-#: C:\Temp\wp\wordpress/wp-admin/theme-editor.php:177
+#: C:\Temp\wp\wordpress/wp-admin/theme-editor.php:176
 msgctxt "Theme stylesheets in theme editor"
 msgid "Styles"
 msgstr "Стили"
 
-#: C:\Temp\wp\wordpress/wp-admin/theme-editor.php:228
+#: C:\Temp\wp\wordpress/wp-admin/theme-editor.php:227
 msgid "Oops, no such file exists! Double check the name and try again, merci."
 msgstr "Извините, такого файла не существует! Проверьте имя и попробуйте снова."
 
@@ -4406,53 +4425,68 @@ msgstr "Загрузить тему"
 msgid "Installing Theme from uploaded file: %s"
 msgstr "Установка темы из файла: %s"
 
-#: C:\Temp\wp\wordpress/wp-admin/upgrade.php:44
+#: C:\Temp\wp\wordpress/wp-admin/upgrade.php:49
 msgid "WordPress &rsaquo; Upgrade"
 msgstr "Обновление WordPress &rsaquo;"
 
-#: C:\Temp\wp\wordpress/wp-admin/upgrade.php:52
+#: C:\Temp\wp\wordpress/wp-admin/upgrade.php:57
 msgid "No Upgrade Required"
 msgstr "Обновление не требуется"
 
-#: C:\Temp\wp\wordpress/wp-admin/upgrade.php:53
+#: C:\Temp\wp\wordpress/wp-admin/upgrade.php:58
 msgid "Your WordPress database is already up-to-date!"
 msgstr "База данных вашего блога WordPress уже обновлена!"
 
-#: C:\Temp\wp\wordpress/wp-admin/upgrade.php:54
-#: C:\Temp\wp\wordpress/wp-admin/upgrade.php:79
+#: C:\Temp\wp\wordpress/wp-admin/upgrade.php:59
+#: C:\Temp\wp\wordpress/wp-admin/upgrade.php:92
 msgid "Continue"
 msgstr "Продолжить"
 
 #: C:\Temp\wp\wordpress/wp-admin/upgrade.php:63
+#, php-format
+msgid "You cannot upgrade because WordPress %1$s requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
+msgstr "Невозможно установить обновление, т.к. WordPress %1$s требует PHP версии %2$s или выше и MySQL версии %3$s или выше. У Вас установлен PHP версии %4$s и MySQL версии %5$s."
+
+#: C:\Temp\wp\wordpress/wp-admin/upgrade.php:65
+#, php-format
+msgid "You cannot upgrade because WordPress %1$s requires PHP version %2$s or higher. You are running version %3$s."
+msgstr "Невозможно установить обновление, т.к. WordPress %1$s требует PHP версии %2$s или выше. У Вас установлен PHP версии %3$s."
+
+#: C:\Temp\wp\wordpress/wp-admin/upgrade.php:67
+#, php-format
+msgid "You cannot upgrade because WordPress %1$s requires MySQL version %2$s or higher. You are running version %3$s."
+msgstr "Невозможно установить обновление, т.к. WordPress %1$s требует MySQL версии %2$s или выше. У Вас установлен MySQL версии %3$s."
+
+#: C:\Temp\wp\wordpress/wp-admin/upgrade.php:76
 msgid "Database Upgrade Required"
 msgstr "Требуется обновление базы данных"
 
-#: C:\Temp\wp\wordpress/wp-admin/upgrade.php:64
+#: C:\Temp\wp\wordpress/wp-admin/upgrade.php:77
 msgid "WordPress has been updated! Before we send you on your way, we have to upgrade your database to the newest version."
 msgstr "WordPress был обновлен! Прежде, чем Вы сможете им пользоваться, нам необходимо обновить Вашу базу данных."
 
-#: C:\Temp\wp\wordpress/wp-admin/upgrade.php:65
+#: C:\Temp\wp\wordpress/wp-admin/upgrade.php:78
 msgid "The upgrade process may take a little while, so please be patient."
 msgstr "Процесс обновления может занять какое-то время, пожалуйста, подождите."
 
-#: C:\Temp\wp\wordpress/wp-admin/upgrade.php:66
+#: C:\Temp\wp\wordpress/wp-admin/upgrade.php:79
 msgid "Upgrade WordPress Database"
 msgstr "Обновить базу данных WordPress"
 
-#: C:\Temp\wp\wordpress/wp-admin/upgrade.php:77
+#: C:\Temp\wp\wordpress/wp-admin/upgrade.php:90
 msgid "Upgrade Complete"
 msgstr "Обновление завершено"
 
-#: C:\Temp\wp\wordpress/wp-admin/upgrade.php:78
+#: C:\Temp\wp\wordpress/wp-admin/upgrade.php:91
 msgid "Your WordPress database has been successfully upgraded!"
 msgstr "База данных вашего блога WordPress была успешно обновлена!"
 
-#: C:\Temp\wp\wordpress/wp-admin/upgrade.php:83
+#: C:\Temp\wp\wordpress/wp-admin/upgrade.php:96
 #, php-format
 msgid "%s queries"
 msgstr "%s запросов"
 
-#: C:\Temp\wp\wordpress/wp-admin/upgrade.php:85
+#: C:\Temp\wp\wordpress/wp-admin/upgrade.php:98
 #, php-format
 msgid "%s seconds"
 msgstr "%s секунд"
@@ -4517,7 +4551,7 @@ msgid "Search Media"
 msgstr "Найти медиафайлы"
 
 #: C:\Temp\wp\wordpress/wp-admin/upload.php:296
-#: C:\Temp\wp\wordpress/wp-admin/upload.php:462
+#: C:\Temp\wp\wordpress/wp-admin/upload.php:464
 msgid "Attach to a post"
 msgstr "Прикрепить к записи"
 
@@ -8803,50 +8837,50 @@ msgid "No comments yet."
 msgstr "Еще нет комментариев."
 
 #: C:\Temp\wp\wordpress/wp-admin/includes/dashboard.php:552
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2177
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2179
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2178
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2180
 msgid "Approve this comment"
 msgstr "Одобрить комментарий"
 
 #: C:\Temp\wp\wordpress/wp-admin/includes/dashboard.php:553
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2175
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2180
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2176
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2181
 msgid "Unapprove this comment"
 msgstr "Отклонить комментарий"
 
 #: C:\Temp\wp\wordpress/wp-admin/includes/dashboard.php:554
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2198
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2199
 msgid "Edit comment"
 msgstr "Редактировать комментарий"
 
 #: C:\Temp\wp\wordpress/wp-admin/includes/dashboard.php:555
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2201
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2202
 msgid "Reply to this comment"
 msgstr "Ответить на этот комментарий"
 
 #: C:\Temp\wp\wordpress/wp-admin/includes/dashboard.php:555
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2201
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2202
 msgid "Reply"
 msgstr "Ответить"
 
 #: C:\Temp\wp\wordpress/wp-admin/includes/dashboard.php:556
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2184
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2185
 msgid "Mark this comment as spam"
 msgstr "Пометить комментарий как спам"
 
 #: C:\Temp\wp\wordpress/wp-admin/includes/dashboard.php:556
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2184
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2185
 msgctxt "verb"
 msgid "Spam"
 msgstr "Спам"
 
 #: C:\Temp\wp\wordpress/wp-admin/includes/dashboard.php:560
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2194
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2195
 msgid "Move this comment to the trash"
 msgstr "Отправить комментарий в корзину"
 
 #: C:\Temp\wp\wordpress/wp-admin/includes/dashboard.php:560
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2194
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2195
 msgctxt "verb"
 msgid "Trash"
 msgstr "Корзина"
@@ -9187,7 +9221,7 @@ msgid "Proceed"
 msgstr "Продолжить"
 
 #: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:19
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:540
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:544
 msgid "Image data does not exist. Please re-upload the image."
 msgstr "Изображение не существует. Пожалуйста, загрузите изображение еще раз."
 
@@ -9196,185 +9230,189 @@ msgid "Crop"
 msgstr "Кадрировать"
 
 #: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:44
-msgid "Rotate couter-clockwise"
+msgid "Rotate counter-clockwise"
 msgstr "Повернуть против часовой стрелки"
 
 #: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:45
 msgid "Rotate clockwise"
 msgstr "Повернуть по часовой стрелке"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:49
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:47
+msgid "Image rotation is not supported by your web host (function imagerotate() is missing)"
+msgstr "Переворот изображений не поддерживается Вашим хостингом (отсутствует функция imagerotate())"
+
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:53
 msgid "Flip vertically"
 msgstr "Отразить по вертикали"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:50
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:54
 msgid "Flip horizontally"
 msgstr "Отразить по горизонтали"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:53
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:57
 msgid "Redo"
 msgstr "Повторить"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:78
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:82
 msgid "Scale Image"
 msgstr "Масштабировать"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:80
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:84
 msgid "You can proportionally scale the original image. For best results the scaling should be done before performing any other operations on it like crop, rotate, etc. Note that if you make the image larger it may become fuzzy."
 msgstr "Вы можете масштабировать оригинальное изображение. Для достижения наилучших результатов масштабирование следует производить до других операций, таких как кадрирование, поворот и т.д. Также обратите внимание, что если Вы увеличите изображение, оно получится размытым."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:81
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:85
 #, php-format
 msgid "Original dimensions %s"
 msgstr "Оригинальный размер %s"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:85
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:89
 msgid "Scale"
 msgstr "Масштабировать"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:93
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:97
 msgid "Restore Original Image"
 msgstr "Восстановить оригинальный размер"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:95
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:99
 msgid "Discard any changes and restore the original image."
 msgstr "Отменить изменения и восстановить оригинальное изображение."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:98
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:102
 msgid " Previously edited copies of the image will not be deleted."
 msgstr "Ранее редактированные копии изображения не будут удалены."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:102
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:106
 msgid "Restore image"
 msgstr "Восстановить изображение"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:113
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:117
 msgid "Image Crop"
 msgstr "Кадрирование"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:114
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:160
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:118
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:164
 msgid "(help)"
 msgstr "(помощь)"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:116
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:120
 msgid "The image can be cropped by clicking on it and dragging to select the desired part. While dragging the dimensions of the selection are displayed below."
 msgstr "Изображение можно кадрировать, щелкая на нем и перетаскивая мышь, выделяя нужую часть. По мере перемещения Вы можете следить за размерами выделения."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:117
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:121
 msgid "Keyboard shortcuts"
 msgstr "«Горячие клавиши»"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:119
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:123
 msgid "Arrow: move by 10px"
 msgstr "Клавиша стрелки: переместить на 10 пикселей"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:120
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:124
 msgid "Shift + arrow: move by 1px"
 msgstr "Shirt + стрелека: переместить на 1 пиксель"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:121
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:125
 msgid "Ctrl + arrow: resize by 10px"
 msgstr "Ctrl + стрелка: изменить размер на 10 пикселей"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:122
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:126
 msgid "Ctrl + Shift + arrow: resize by 1px"
 msgstr "Ctrl + Shift + стрелка: изменить размер на 1 пиксель"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:123
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:127
 msgid "Shift + drag: lock aspect ratio"
 msgstr "Shift + перетаскивание: заблокировать соотношение сторон"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:126
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:130
 msgid "Crop Aspect Ratio"
 msgstr "Соотношение сторон при кадрировании"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:127
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:131
 msgid "You can specify the crop selection aspect ratio then hold down the Shift key while dragging to lock it. The values can be 1:1 (square), 4:3, 16:9, etc. If there is a selection, specifying aspect ratio will set it immediately."
 msgstr "Вы можете указать соотношение сторон при кадрировании, а затем, удерживая клавишу Shift и осуществляя перемещения мышью, зафиксировать его. Соотношение может быть равно 1:1 (квадрат), 4:3, 16:9 и т.д. Если что-то уже выделено, установление соотношения автоматически применится."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:129
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:133
 msgid "Crop Selection"
 msgstr "Кадрировать выделеннное"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:130
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:134
 msgid "Once started, the selection can be adjusted by entering new values (in pixels). Note that these values are scaled to approximately match the original image dimensions. The minimum selection size equals the thumbnail size as set in the Media settings."
 msgstr "Существующее выделение можно изменять путем ввода новых значений (в пикселях). Обратите внимание, что эти значения корректируются таким образом, чтобы соответствовать размерам оригинального изображения. Минимальное значение выделения определяется размером миниатюры, установленным в разделе настроек Медиа."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:135
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:139
 msgid "Aspect ratio:"
 msgstr "Соотношение сторон:"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:144
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:148
 msgid "Selection:"
 msgstr "Выделение:"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:159
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:163
 msgid "Thumbnail Settings"
 msgstr "Настройки миниатюры"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:161
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:165
 msgid "The thumbnail image can be cropped differently. For example it can be square or contain only a portion of the original image to showcase it better. Here you can select whether to apply changes to all image sizes or make the thumbnail different."
 msgstr "Миниатюра может быть кадрирована по-другому. Например, она может быть квадратной или содержать отдельный элемент оригинального изображения, чтобы показать его лучше. Здесь Вы можете выбрать, применять изменения ко всем размерам изображений или сделать миниматюру отличной от других."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:165
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:169
 msgid "Current thumbnail"
 msgstr "Текущая миниатюра"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:169
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:173
 msgid "Apply changes to:"
 msgstr "Применить изменения к:"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:173
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:177
 msgid "All image sizes"
 msgstr "Изображениям всех размеров"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:177
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:181
 #: C:\Temp\wp\wordpress/wp-admin/includes/media.php:822
 msgid "Thumbnail"
 msgstr "Миниатюра"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:181
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:185
 msgid "All sizes except thumbnail"
 msgstr "Всем размерам, за исключением миниатюр"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:191
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:195
 msgid "There are unsaved changes that will be lost.  'OK' to continue, 'Cancel' to return to the Image Editor."
 msgstr "Имеются несохраненные изменения, которые будут потеряны. 'OK' для продолжения, 'Отмена', чтобы вернуться в редактор изображений."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:423
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:427
 msgid "Cannot load image metadata."
 msgstr "Не удается загрузить метаданные изображения."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:478
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:482
 msgid "Cannot save image metadata."
 msgstr "Не удается сохранить метаданные изображения."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:483
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:487
 msgid "Image metadata is inconsistent."
 msgstr "Метаданные изображения повреждены."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:485
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:489
 msgid "Image restored successfully."
 msgstr "Изображение восстановлено успешно."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:498
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:502
 msgid "Unable to create new image."
 msgstr "Не удается создать новое изображение."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:524
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:528
 msgid "Error while saving the scaled image. Please reload the page and try again."
 msgstr "Произошла ошибка при сохранании смасштабированного изображения. Пожалуйста, повторите попытку позже."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:532
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:536
 msgid "Nothing to save, the image has not changed."
 msgstr "Нечего сохранять - изображение не было изменено."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:575
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:579
 msgid "Unable to save the image."
 msgstr "Не удается сохранить изображение."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:660
+#: C:\Temp\wp\wordpress/wp-admin/includes/image-edit.php:664
 msgid "Image saved"
 msgstr "Изображение сохранено"
 
@@ -9414,7 +9452,7 @@ msgid "Uploads"
 msgstr "Загрузки"
 
 #: C:\Temp\wp\wordpress/wp-admin/includes/media.php:304
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3400
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3401
 msgid "WordPress"
 msgstr "WordPress"
 
@@ -9801,7 +9839,7 @@ msgstr "Личная"
 
 #: C:\Temp\wp\wordpress/wp-admin/includes/meta-boxes.php:93
 #: C:\Temp\wp\wordpress/wp-admin/includes/meta-boxes.php:139
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2650
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2651
 msgid "OK"
 msgstr "ОК"
 
@@ -9812,13 +9850,13 @@ msgstr "Видимость:"
 #: C:\Temp\wp\wordpress/wp-admin/includes/meta-boxes.php:106
 #: C:\Temp\wp\wordpress/wp-admin/includes/meta-boxes.php:136
 #: C:\Temp\wp\wordpress/wp-admin/includes/template.php:1213
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3452
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3453
 msgid "Private"
 msgstr "личная"
 
 #: C:\Temp\wp\wordpress/wp-admin/includes/meta-boxes.php:109
 #: C:\Temp\wp\wordpress/wp-admin/includes/meta-boxes.php:134
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3450
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3451
 msgid "Password protected"
 msgstr "защищена паролем"
 
@@ -9872,7 +9910,7 @@ msgstr "Запланировать"
 #: C:\Temp\wp\wordpress/wp-admin/includes/meta-boxes.php:217
 #: C:\Temp\wp\wordpress/wp-admin/includes/meta-boxes.php:218
 #: C:\Temp\wp\wordpress/wp-admin/includes/template.php:1262
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2512
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2513
 msgid "Update"
 msgstr "Обновление"
 
@@ -10633,13 +10671,13 @@ msgstr "Подписчик"
 #: C:\Temp\wp\wordpress/wp-admin/includes/template.php:670
 #: C:\Temp\wp\wordpress/wp-admin/includes/template.php:1449
 #: C:\Temp\wp\wordpress/wp-admin/includes/template.php:1669
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2199
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2200
 msgid "Quick&nbsp;Edit"
 msgstr "Быстрое&nbsp;редактирование"
 
 #: C:\Temp\wp\wordpress/wp-admin/includes/template.php:229
 #: C:\Temp\wp\wordpress/wp-admin/includes/template.php:1029
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2199
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2200
 msgid "Quick Edit"
 msgstr "Быстрое редактирование"
 
@@ -10733,7 +10771,7 @@ msgstr "Разрешить уведомления"
 
 #: C:\Temp\wp\wordpress/wp-admin/includes/template.php:1226
 #: C:\Temp\wp\wordpress/wp-admin/includes/template.php:1229
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3459
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3460
 msgid "Sticky"
 msgstr "Закрепить"
 
@@ -10828,284 +10866,284 @@ msgstr "Все записи этого автора"
 msgid "Y/m/d \\a\\t g:i A"
 msgstr "d.m.Y в H:i"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2148
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2149
 #, php-format
 msgid "Submitted on <a href=\"%1$s\">%2$s at %3$s</a>"
 msgstr "Отправлено: <a href=\"%1$s\">%2$s в %3$s</a>"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2148
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2149
 msgid "g:ia"
 msgstr "G:i"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2250
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2251
 msgid "Y/m/d \\a\\t g:ia"
 msgstr "d.m.Y в H:i"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2324
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2325
 msgid "Reply to Comment"
 msgstr "Ответить на комментарий"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2350
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2351
 msgid "Submit Reply"
 msgstr "Отправить ответ"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2383
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2384
 #, php-format
 msgid "Comment by %s moved to the trash."
 msgstr "Комментарий от %s отправлен в корзину."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2386
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2387
 #, php-format
 msgid "Comment by %s marked as spam."
 msgstr "Комментарий от имени пользователя %s помечен как спам."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2439
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2454
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2516
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2543
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2440
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2455
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2517
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2544
 msgid "Value"
 msgstr "Значение"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2508
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2509
 msgid "Key"
 msgstr "Ключ"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2538
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2539
 msgid "Add new custom field:"
 msgstr "Добавить новое произвольное поле:"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2563
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2564
 msgid "Enter new"
 msgstr "Добавить новое"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2573
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2574
 msgid "Add Custom Field"
 msgstr "Добавить произвольное поле"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2635
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2636
 #, php-format
 msgid "%1$s%2$s, %3$s @ %4$s : %5$s"
 msgstr "%1$s%2$s, %3$s @ %4$s : %5$s"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2717
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2718
 msgid "WordPress recommends a better browser"
 msgstr "WordPress рекомендует использовать браузер получше"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2752
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2753
 msgid "Thumbnail linked to file"
 msgstr "Миниатюра с ссылкой на файл"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2752
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2753
 msgid "Image linked to file"
 msgstr "Изображение с ссылкой на файл"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2756
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2757
 msgid "Thumbnail linked to page"
 msgstr "Миниатюра с ссылкой на страницу"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2756
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2757
 msgid "Image linked to page"
 msgstr "Изображение с ссылкой на страницу"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2761
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2762
 msgid "Link to file"
 msgstr "Ссылка на файл"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2765
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2766
 msgid "Link to page"
 msgstr "Ссылка на страницу"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2864
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2865
 msgid "Before you can upload your import file, you will need to fix the following error:"
 msgstr "Перед тем, как импортировать файл, Вам нужно исправить следующую ошибку:"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2870
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2871
 msgid "Choose a file from your computer:"
 msgstr "Выберите файл на вашем компьютере:"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2870
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2871
 #, php-format
 msgid "Maximum size: %s"
 msgstr "Максимальный размер: %s"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2876
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:2877
 msgid "Upload file and import"
 msgstr "Загрузить и импортировать файл"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3222
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3223
 msgid "Find Posts or Pages"
 msgstr "Поиск записей и страниц"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3275
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3318
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3276
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3319
 msgid "New Page"
 msgstr "Новая страница"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3281
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3282
 msgid "New Media"
 msgstr "Загрузить новый медиафайл"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3287
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3288
 msgid "New Link"
 msgstr "Добавить новую ссылку"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3293
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3294
 msgid "New User"
 msgstr "Добавить нового пользователя"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3296
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3297
 msgid "Edit Users"
 msgstr "Редактировать пользователя"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3311
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3316
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3312
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3317
 msgid "New Post"
 msgstr "Новая запись"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3317
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3318
 msgid "Drafts"
 msgstr "Черновики"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3369
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3370
 msgid "(no title)"
 msgstr "(без заголовка)"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3457
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3458
 msgctxt "post state"
 msgid "Pending"
 msgstr "Ожидает"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3508
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3509
 msgid "<a href=\"http://codex.wordpress.org/Writing_Posts\" target=\"_blank\">Writing Posts</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Writing_Posts\" target=\"_blank\">Создание записей (на английском)</a>"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3520
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3521
 msgid "The modules on this screen can be arranged in several columns. You can select the number of columns from the Screen Options tab."
 msgstr "Модули на этом экране могут быть организованы в несколько колонок. Вы можете выбирать количество колонок во вкладке \"Настройки Экрана\"."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3533
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3534
 msgid "<a href=\"http://codex.wordpress.org/Settings_General_SubPanel\" target=\"_blank\">General Settings</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Settings_General_SubPanel\" target=\"_blank\">Основные настройки (на английском)</a>"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3547
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3548
 msgid "Enable accessibility mode"
 msgstr "Включить режим для людей с ограниченными возможностями"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3547
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3548
 msgid "Disable accessibility mode"
 msgstr "Выключить режим для людей с ограниченными возможностями"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3559
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3560
 msgid "Show on screen"
 msgstr "Показать на экране"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3588
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3589
 #, php-format
 msgid "Get help with &#8220;%s&#8221;"
 msgstr "Получить помощь по &#8220;%s&#8221;"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3590
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3591
 msgid "Get help with this page"
 msgstr "Получите помощь с помощью указанной ниже страницы"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3593
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3594
 msgid "Other Help"
 msgstr "Другая помощь"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3595
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3610
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3596
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3611
 msgid "Help"
 msgstr "Помощь"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3599
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3600
 msgid "<a href=\"http://codex.wordpress.org/\" target=\"_blank\">Documentation</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Заглавная_страница\" target=\"_blank\">Документация</a> "
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3601
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3602
 msgid "<a href=\"http://wordpress.org/support/\" target=\"_blank\">Support Forums</a>"
 msgstr "<a href=\"http://mywordpress.ru/support/\" target=\"_blank\">Форум поддержки на русском языке</a>, <a href=\"http://mywordpress.ru/faq/\" target=\"_blank\" title=\"Ответы на частозадаваемые вопросы\">FAQ</a>"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3614
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3615
 msgid "Screen Options"
 msgstr "Настройки экрана"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3641
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3642
 msgid "Most of the modules on this screen can be moved. If you hover your mouse over the title bar of a module you&rsquo;ll notice the 4 arrow cursor appears to let you know it is movable. Click on it, hold down the mouse button and start dragging the module to a new location. As you drag the module, notice the dotted gray box that also moves. This box indicates where the module will be placed when you release the mouse button."
 msgstr "Большинство модулей на этом экране можно перемещать. Если вы поместите курсор мыши над заголовком модуля, то можно заметить «4-стрелочный курсор», показывающий что блок можно двигать. Щелкните на него, и удерживая кнопку мыши, переместите модуль на новое место. При движении модуля, серый пунктирный блок также перемещается. Этот блок показывает место, где будет размещаться модуль после того, как Вы отпустите кнопку мыши."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3642
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3643
 msgid "The same modules can be expanded and collapsed by clicking once on their title bar and also completely hidden from the Screen Options tab."
 msgstr "Эти же модули можно «сворачивать» и «разворачивать» щелчком по заголовку модуля, либо можно полностью скрыть через вкладку «Настройки экрана»."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3648
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3649
 msgid "Search help"
 msgstr "Искать в справке"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3649
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3650
 msgid "You may search based on 3 criteria:"
 msgstr "Вы можете искать по 3 критериям:"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3650
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3651
 msgid "<strong>Term:</strong> Searches theme names and descriptions for the specified term."
 msgstr "<strong>Термин:</strong> Поиск термина в названиях и описаниях тем."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3651
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3652
 msgid "<strong>Tag:</strong> Searches for themes tagged as such."
 msgstr "<strong>Метка:</strong> Поиск тем с заданной меткой."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3652
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3653
 msgid "<strong>Author:</strong> Searches for themes created by the Author, or which the Author contributed to."
 msgstr "<strong>Автор:</strong> Поиск тем, созданных или поддерживаемых «Автором»."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3658
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3659
 msgid "Widgets are added and arranged by simple drag &#8217;n&#8217; drop. If you hover your mouse over the titlebar of a widget, you&#8217;ll see a 4-arrow cursor which indicates that the widget is movable.  Click on the titlebar, hold down the mouse button and drag the widget to a sidebar. As you drag, you&#8217;ll see a dotted box that also moves. This box shows where the widget will go once you drop it."
 msgstr "Виджеты добавляются и организовываются простым перетаскиванием. Если Вы задержите указатель мыши над заголовком виджета, Вы увидите курсор в виде 4-х стрелок, который показывает, что виджет можно перемещать. Нажмите левую кнопку мыши и переместите виджет на сайдбар. По мере перетаскивания Вы будете видеть рамку из точек, которая тоже будет двигаться. Она показывает, где будет виджет, когда Вы его отпустите."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3659
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3660
 msgid "To remove a widget from a sidebar, drag it back to Available Widgets or click on the arrow on its titlebar to reveal its settings, and then click Remove."
 msgstr "Для удаления виджета из сайдбара перетащите его в &quot;Доступные виджеты&quot; или щелкните на стрелке в его заголовке и выберите &quot;Удалить&quot;."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3660
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3661
 msgid "To remove a widget from a sidebar <em>and keep its configuration</em>, drag it to Inactive Widgets."
 msgstr "Для удаления виджета <em>с сохранением его конфигурации</em> перетащите его в &quot;Неактивные виджеты&quot;."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3661
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3662
 msgid "The Inactive Widgets area stores widgets that are configured but not curently used. If you change themes and the new theme has fewer sidebars than the old, all extra widgets will be stored to Inactive Widgets automatically."
 msgstr "Область &quot;Неактивные виджеты&quot; хранит сконфигурированные, но не используемые в данный момент виджеты. Если Вы смените тему, и новая тема будет содержать меньшее количество сайдбаров, чем старая, все лишние виджеты окажутся в области &quot;Неактивные виджеты&quot; автоматически."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3683
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3684
 msgid "Screen Layout"
 msgstr "Разметка экрана"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3683
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3684
 msgid "Number of Columns:"
 msgstr "Количество колонок:"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3695
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3696
 msgid "Posts per page:"
 msgstr "Постов на страницу:"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3698
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3699
 msgid "Pages per page:"
 msgstr "Страниц на страницу:"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3701
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3702
 msgid "Comments per page:"
 msgstr "Комментариев на страницу:"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3704
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3705
 msgid "Media items per page:"
 msgstr "Количество медиафайлов на странице:"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3707
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3708
 msgid "Categories per page:"
 msgstr "Категорий на страницу:"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3710
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3711
 msgid "Tags per page:"
 msgstr "Тегов на страницу:"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3713
+#: C:\Temp\wp\wordpress/wp-admin/includes/template.php:3714
 msgid "Plugins per page:"
 msgstr "Плагинов на страницу:"
 
@@ -11335,34 +11373,34 @@ msgstr "Невозможно обнаружить директорию тем Wo
 msgid "Could not fully remove the theme %s"
 msgstr "Невозможно полностью удалить тему(ы) %s"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/update-core.php:231
+#: C:\Temp\wp\wordpress/wp-admin/includes/update-core.php:234
 #, php-format
 msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
 msgstr "Невозможно установить обновление, т.к. WordPress %1$s требует PHP версии %2$s или выше и MySQL версии %3$s или выше. У Вас установлен PHP версии %4$s и MySQL версии %5$s."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/update-core.php:233
+#: C:\Temp\wp\wordpress/wp-admin/includes/update-core.php:236
 #, php-format
 msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher. You are running version %3$s."
 msgstr "Невозможно установить обновление, т.к. WordPress %1$s требует PHP версии %2$s или выше. У Вас установлен PHP версии %3$s."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/update-core.php:235
+#: C:\Temp\wp\wordpress/wp-admin/includes/update-core.php:238
 #, php-format
 msgid "The update cannot be installed because WordPress %1$s requires MySQL version %2$s or higher. You are running version %3$s."
 msgstr "Невозможно установить обновление, т.к. WordPress %1$s требует MySQL версии %2$s или выше. У Вас установлен MySQL версии %3$s."
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/update-core.php:238
+#: C:\Temp\wp\wordpress/wp-admin/includes/update-core.php:241
 msgid "Verifying the unpacked files"
 msgstr "Проверка распакованных файлов"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/update-core.php:242
+#: C:\Temp\wp\wordpress/wp-admin/includes/update-core.php:245
 msgid "The update could not be unpacked"
 msgstr "Невозможно распаковать обновление"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/update-core.php:245
+#: C:\Temp\wp\wordpress/wp-admin/includes/update-core.php:248
 msgid "Installing the latest version"
 msgstr "Установка свежей версии"
 
-#: C:\Temp\wp\wordpress/wp-admin/includes/update-core.php:270
+#: C:\Temp\wp\wordpress/wp-admin/includes/update-core.php:273
 msgid "Upgrading database"
 msgstr "Обновление базы данных"
 
@@ -11638,7 +11676,7 @@ msgstr "Настройки сохранены."
 
 #: C:\Temp\wp\wordpress/wp-content/plugins/akismet/akismet.php:137
 #, php-format
-msgid "For many people, <a href=\"%1$s\">Akismet</a> will greatly reduce or even completely eliminate the comment and trackback spam you get on your site. If one does happen to get through, simply mark it as \"spam\" on the moderation screen and Akismet will learn from the mistakes. If you don't have a WordPress.com account yet, you can get one at <a href=\"%2$s\">WordPress.com</a>."
+msgid "For many people, <a href=\"%1$s\">Akismet</a> will greatly reduce or even completely eliminate the comment and trackback spam you get on your site. If one does happen to get through, simply mark it as \"spam\" on the moderation screen and Akismet will learn from the mistakes. If you don't have a WordPress.com account yet, you can get one at <a href=\"%2$s\">Akismet.com</a>."
 msgstr "Для большинства людей, <a href=\"%1$s\">Akismet</a>  значительно уменьшил или даже полностью устранил спам в комментариях и трэкбеках, которые появляются на сайте. Если не случится что «спам» прошел, просто пометьте его как «спам» на экране модерирования и Akismet будет учиться на этих ошибках. Если у Вас нет учетной записи WordPress.com, вы можете получить ее на <a href=\"%2$s\">WordPress.com</a>."
 
 #: C:\Temp\wp\wordpress/wp-content/plugins/akismet/akismet.php:140
@@ -12597,48 +12635,48 @@ msgstr "Записи из любой ленты RSS или Atom"
 msgid "Syndicate this content"
 msgstr "Синдикация этого содержания"
 
-#: C:\Temp\wp\wordpress/wp-includes/default-widgets.php:790
+#: C:\Temp\wp\wordpress/wp-includes/default-widgets.php:792
 msgid "An error has occurred; the feed is probably down. Try again later."
 msgstr "Произошла ошибка, RSS лента временно недоступна. Попробуйте позже."
 
-#: C:\Temp\wp\wordpress/wp-includes/default-widgets.php:804
+#: C:\Temp\wp\wordpress/wp-includes/default-widgets.php:806
 msgid "Untitled"
 msgstr "Без заголовка"
 
-#: C:\Temp\wp\wordpress/wp-includes/default-widgets.php:880
+#: C:\Temp\wp\wordpress/wp-includes/default-widgets.php:882
 #, php-format
 msgid "RSS Error: %s"
 msgstr "Ошибка RSS: %s"
 
-#: C:\Temp\wp\wordpress/wp-includes/default-widgets.php:884
+#: C:\Temp\wp\wordpress/wp-includes/default-widgets.php:886
 msgid "Enter the RSS feed URL here:"
 msgstr "Введите URL RSS ленты здесь:"
 
-#: C:\Temp\wp\wordpress/wp-includes/default-widgets.php:887
+#: C:\Temp\wp\wordpress/wp-includes/default-widgets.php:889
 msgid "Give the feed a title (optional):"
 msgstr "Укажите заголовок RSS ленты (не обязательно)"
 
-#: C:\Temp\wp\wordpress/wp-includes/default-widgets.php:890
+#: C:\Temp\wp\wordpress/wp-includes/default-widgets.php:892
 msgid "How many items would you like to display?"
 msgstr "Сколько элементов вы хотите отображать?"
 
-#: C:\Temp\wp\wordpress/wp-includes/default-widgets.php:899
+#: C:\Temp\wp\wordpress/wp-includes/default-widgets.php:901
 msgid "Display item content?"
 msgstr "Отображать содержимое элемента?"
 
-#: C:\Temp\wp\wordpress/wp-includes/default-widgets.php:902
+#: C:\Temp\wp\wordpress/wp-includes/default-widgets.php:904
 msgid "Display item author if available?"
 msgstr "Отображать автора элемента, если таковой имеется?"
 
-#: C:\Temp\wp\wordpress/wp-includes/default-widgets.php:905
+#: C:\Temp\wp\wordpress/wp-includes/default-widgets.php:907
 msgid "Display item date?"
 msgstr "Отображать дату элемента?"
 
-#: C:\Temp\wp\wordpress/wp-includes/default-widgets.php:971
+#: C:\Temp\wp\wordpress/wp-includes/default-widgets.php:973
 msgid "Your most used tags in cloud format"
 msgstr "Наиболее используемые метки в виде облака"
 
-#: C:\Temp\wp\wordpress/wp-includes/default-widgets.php:972
+#: C:\Temp\wp\wordpress/wp-includes/default-widgets.php:974
 msgid "Tag Cloud"
 msgstr "Облако меток"
 
@@ -12961,13 +12999,13 @@ msgstr "%1$s <strong>не рекомендуется</strong> начиная с 
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s <strong>не рекомендуется</strong> начиная с версии %2$s и альтернатива недоступна. "
 
-#: C:\Temp\wp\wordpress/wp-includes/functions.php:3440
+#: C:\Temp\wp\wordpress/wp-includes/functions.php:3437
 msgid "Select a city"
 msgstr "Выберите город"
 
-#: C:\Temp\wp\wordpress/wp-includes/functions.php:3455
-msgid "Manual offsets"
-msgstr "Ручная настройка"
+#: C:\Temp\wp\wordpress/wp-includes/functions.php:3490
+msgid "Manual Offsets"
+msgstr "Выбор вручную"
 
 #: C:\Temp\wp\wordpress/wp-includes/general-template.php:125
 msgid "Search for:"
@@ -13061,7 +13099,7 @@ msgid "User has blocked requests through HTTP."
 msgstr "Пользователь заблокировал запросы посредством HTTP."
 
 #: C:\Temp\wp\wordpress/wp-includes/http.php:746
-#: C:\Temp\wp\wordpress/wp-includes/http.php:1380
+#: C:\Temp\wp\wordpress/wp-includes/http.php:1373
 msgid "Too many redirects."
 msgstr "Слишком много редиректов."
 
@@ -13624,11 +13662,11 @@ msgstr "Невозможно вставить запись в базу данн�
 msgid "The page template is invalid."
 msgstr "Шаблон страницы недопустим."
 
-#: C:\Temp\wp\wordpress/wp-includes/post.php:3854
+#: C:\Temp\wp\wordpress/wp-includes/post.php:3856
 msgid "Cannot create a revision of a revision"
 msgstr "Невозможно создать ревизию ревизии"
 
-#: C:\Temp\wp\wordpress/wp-includes/post.php:4030
+#: C:\Temp\wp\wordpress/wp-includes/post.php:4032
 msgid "You do not have permission to preview drafts."
 msgstr "Вы не имеете достаточно прав для просмотра черновиков."
 
